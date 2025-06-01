@@ -24,7 +24,7 @@ RUN pip3 install --no-cache-dir --break-system-packages wget==3.2 \
     pyspark==${spark_version} \
     jupyterlab==${jupyterlab_version} \
     sparksql-magic==${sparksql_magic_version} \
-    kafka-python==${kafka_python_version}
+    kafka-python-ng
 
 EXPOSE 8888
 

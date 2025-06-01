@@ -17,7 +17,7 @@ DELTA_PACKAGE_VERSION="delta-core_2.12:2.4.0"
 SPARK_VERSION_MAJOR=${SPARK_VERSION:0:1}
 SPARK_XML_PACKAGE_VERSION="spark-xml_2.12:0.16.0"
 SPARKSQL_MAGIC_VERSION="0.0.3"
-KAFKA_PYTHON_VERSION="2.0.2"
+# KAFKA_PYTHON_VERSION="2.0.2"
 
 # ----------------------------------------------------------------------------------------------------------------------
 # -- Functions----------------------------------------------------------------------------------------------------------
