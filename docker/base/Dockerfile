@@ -19,7 +19,7 @@ ARG shared_workspace=/opt/workspace
 RUN mkdir -p ${shared_workspace}/data && \
     mkdir -p /usr/share/man/man1  && \
     apt update -y && \
-    apt install -y --no-install-recommends curl python3 r-base netcat-traditional && \
+    apt install -y --no-install-recommends curl python3 r-base netcat-openbsd && \
     ln -s /usr/bin/python3 /usr/bin/python && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*

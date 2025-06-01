@@ -40,6 +40,7 @@ services:
     ports:
       - 8888:8888
       - 4040:4040
+      - 9999:9999
     volumes:
       - shared-workspace:/opt/workspace
   spark-master:
